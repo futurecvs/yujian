@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图片鉴赏</title>
+    <style>
+      /* 头部样式 */
+      .header {
+        background-color: #ffffff;
+        padding: 1px;
+        text-align: center;
+        color: #f9e611;
+        font-size: 30px;
+      }
+      /* 导航条 */
+      .topnav {
+        overflow: hidden;
+        background-color: #855f00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* 导航链接 */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #e6d00c;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 30px;
+        text-decoration: center;
+      }
+      /* 链接 - 修改颜色 */
+      .topnav a:hover {
+        background-color: #0de16d;
+        color: #f00cd6;
+      }
+      body {
+        background: linear-gradient(135deg, #ffffcc, #ffffcc, #ffffcc);
+        background-image: url("paper.gif");
+        background-repeat: repeat-y;
+        background-color: #ffffcc;
+        margin: 0;
+        padding: 0;
+      }
+      #img {
+        text-align: center;
+      }
+      .img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0px 7%;
+        border: 10px solid #46460f;
+        background-color: #d9d963;
+      }
+      .img > Img {
+        width: 400px;
+        height: 240px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        transition: all 2s;
+      }
+      .img > Img:hover {
+        transform: scale(1.25, 1.1);
+      }
+      /*去下划线*/
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/2.jpg" alt="海绵宝宝" width="25" height="25" />
+      <span>海绵宝宝</span>
+    </div>
+    <div class="topnav">
+      <h3><a href="zuoye .html" id="name">首页</a></h3>
+      <h3><a href="jsjs.html">角色介绍</a></h3>
+      <h3><a href="jcpd.html">精彩片段</a></h3>
+      <h3><a href="tpjs.html">图片鉴赏</a></h3>
+      <h3><a href="jqdy.html">剧情大意</a></h3>
+      <h3><a href="ypxx.html">影片信息</a></h3>
+    </div>
+    <br />
+    <div id="img"><img src="img/3.jfif" alt="海绵宝宝" /></div>
+    <br />
+    <div class="img" style="color: #ffffcc">
+      <img src="img/1.jpeg" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/3.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/4.jpg" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/11.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/12.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/8.png" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/13.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/14.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/15.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/16.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/17.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/18.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/19.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/20.jfif" alt="海绵宝宝" width="250" height="250" />
+      <img src="img/21.jpg" alt="海绵宝宝" width="250" height="250" />
+    </div>
+  </body>
+</html>
